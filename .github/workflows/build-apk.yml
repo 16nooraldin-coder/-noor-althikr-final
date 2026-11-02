@@ -29,7 +29,6 @@ jobs:
       - name: Extract project
         run: |
           unzip -o NoorAlThikr-Final-Name-Icon-Audio-Notice.zip -d project
-          ls -la project
 
       - name: Build APK
         working-directory: project
